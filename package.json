@@ -1,8 +1,8 @@
 {
-  "name": "",
+  "name": "mocha-phantomjs",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Headless browser tests with Mocha, WebdriverIO and PhantomJS",
+  "private": true,
   "scripts": {
     "test": "mocha -R spec --ui bdd --colors test/*.js",
     "coverage": "./node_modules/.bin/istanbul cover -x \"**/endpoint/**\" --report html ./node_modules/mocha/bin/_mocha -- -R spec --ui bdd --colors test/*.js"
